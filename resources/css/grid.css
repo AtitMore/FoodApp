@@ -1,0 +1,85 @@
+/*  -----------------------    
+    SECTIONS  
+--------------------------- */
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  -----------------------  
+    GROUPING 
+---------------------------*/
+
+.row {
+    zoom: 1;
+}
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
+
+/*  -----------------------
+    GRID COLUMN SETUP  
+------------------------- */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } 
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		/*margin: 1% 0 1% 0%;*/
+        margin: 0;
+	}
+}
+
+/*  -----------------------
+    Col adjusment  
+------------------------- */
+
+.col-3 {
+    width: 32.26%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-2-1 {
+    width: 23.8%;
+}
+
+.col-6 {
+    width: 49%;
+}
+
+@media only screen and (max-width: 480px) {
+    .col-3 {
+        width: 100%;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+
+    .col-2-1 {
+        width: 100%;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+}
+
+
