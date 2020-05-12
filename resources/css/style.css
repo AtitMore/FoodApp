@@ -137,6 +137,10 @@ header .nav-head-menu {
     margin-top: 55px;
 }
 
+.nav-head-menu {
+    display: inline-block;
+}
+
 .nav-head-menu li {
     display: inline-block;
     margin-left: 40px;
