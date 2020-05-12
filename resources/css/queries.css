@@ -60,6 +60,13 @@
         display: none;
     }
     
+    .mobile-nav-icon {
+        display: block;
+        float: right;
+        color: #fff;
+        font-size: 3rem;
+        margin-top: 25px;
+    }
     
     .main-nav { display: none; }
     .mobile-nav-icon {display: inline-block;}
@@ -121,5 +128,14 @@
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
+
+    .cover-btn {
+        display: inline-grid;
+        
+    }
+
+    .hero-text-box .btn-full {
+        margin-bottom: 10px;
+    }
 }
 

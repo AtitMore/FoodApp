@@ -137,8 +137,16 @@ header .nav-head-menu {
     margin-top: 55px;
 }
 
+.cover-btn {
+    display: inline;
+}
+
 .nav-head-menu {
     display: inline-block;
+}
+
+.mobile-nav-icon {
+    display: none;
 }
 
 .nav-head-menu li {
