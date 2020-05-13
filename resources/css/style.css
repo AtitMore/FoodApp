@@ -324,6 +324,16 @@ Meals
     border: 0;
 }
 
+.store-btn img {
+    width: 7rem;
+}
+
+.play-btn img {
+    width: 6rem;
+}
+
+
+
 /* ------------------------
 Cities
 ---------------------------*/
